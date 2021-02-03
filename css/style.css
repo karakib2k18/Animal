@@ -1,0 +1,560 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1,h2,h3,h4,h5,h6,p,span,button,input,a{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* headaer css start here */
+header{
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 12px 0px;
+}
+.navbar {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+.nav-item{
+    padding: 0px 15px;
+
+}
+
+.nav-link{
+    font-size: 27px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF !important;
+}
+
+.form-control{
+    background: #FCC302 !important;
+    border:#FCC302 !important;
+    border-radius: 0px !important;
+    padding: 0.85rem .75rem;
+}
+
+.form-control::placeholder{
+    color: #FFFFFF !important;
+}
+.input-group {
+    width: 89%;
+}
+.input-group-text {
+    background: #00BEC9;
+    border: #00BEC9;
+    color: #F8FDFE !important;
+    border-radius: 0px !important;
+    padding: 0.375rem 1rem;
+
+}
+.input-group-text a i{
+    color: #F8FDFE;
+}
+/* header end here */
+
+/* banner start here */
+.banner{
+    padding: 120px 0px;
+    background:#FCC302;
+    width: 100%;
+}
+
+.banner h1{
+    font-size: 62px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #FFFFFF ;
+    margin-top: 87px;
+}
+
+.banner p{
+    font-size: 27px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF ;
+    margin: 37px 0px;
+
+}
+
+.btn-primary {
+    color:#FFFFFF;
+    background-color: #00BEC9;
+    border: 2px solid #00BEC9;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.service-btn1{
+    background-color: transparent;
+}
+
+.service-btn1:hover{
+    border: none !important;
+    border: 2px solid #0d6efd !important;
+}
+/* banner end here */
+
+
+/* video-play-service start here */
+
+
+.video-play-service{
+    padding: 65px 0px;
+    background:#FFFFFF;
+    width: 100%;
+}
+.video-play-service h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #313243 ;
+}
+
+.video-play-service p{
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #313243 ;
+    margin: 37px 0px;
+
+}
+.video-play-service .service-btn2{
+    background: #FCC302;
+    border: 2px solid #FCC302;
+}
+
+.video-play-service .video-service{
+    position: relative;
+    z-index: 1;
+}
+.video-play-service .box{
+    height: 150px;
+    width: 150px;
+    background: #FCC302;
+    left: -23px;
+    bottom: -23px;
+    position: absolute;
+    z-index: -1;
+}
+
+.video-play-service .shadow{
+    top: 0;
+    left: 0;
+    right: 20px;
+    bottom: 0;
+    background: rgba(252, 195, 2, 0.4);
+    position: absolute;
+}
+
+.video-play-service .video-icon{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    background: #FFFFFF;
+    text-align: center;
+    border-radius: 50%;
+    color: #DAAC00;
+    left: 230px;
+    top: 215px;
+}
+
+/* video-play-service end here */
+
+/* title-here start here */
+.title-here{
+    padding:50px 0px;
+    background:#FCC302;
+    width: 100%;
+}
+.title-here .title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title-here .title h1{
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center ;
+    color: #FFFFFF ;
+}
+.title-here .title p{
+    font-size: 29px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF ;
+}
+
+.title-here .title-des h1{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center ;
+    color: #FFFFFF ;
+    margin: 35px 0px 18px 0px;
+
+}
+.title-here .det-des{
+    padding: 0px 36px;
+
+}
+.title-here .title-des p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF ;
+}
+/* title-here end here */
+
+/* video-play-service 2nd part start here */
+.video-play-service2{
+    padding: 65px 0px;
+    background:#FFFFFF;
+    width: 100%;
+}
+.video-play-service2 h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #313243 ;
+}
+
+.video-play-service2 p{
+    font-size: 29px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #313243 ;
+    margin: 37px 0px;
+
+}
+.video-play-service2 .service-btn2{
+    background: #FCC302;
+    border: 2px solid #FCC302;
+}
+
+.video-play-service2 .video-service{
+    position: relative;
+    z-index: 1;
+}
+.video-play-service2 .box{
+    height: 150px;
+    width: 150px;
+    background: #FCC302;
+    right: -7px;
+    bottom: -22px;
+    position: absolute;
+    z-index: -1;
+}
+.video-play-service2 .shadow{
+    top: 0;
+    left: 0;
+    right: 20px;
+    bottom: 0;
+    background: rgba(252, 195, 2, 0.4);
+    position: absolute;
+}
+
+.video-play-service2 .video-icon{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    background: #FFFFFF;
+    text-align: center;
+    border-radius: 50%;
+    color: #DAAC00;
+    left: 230px;
+    top: 215px;
+}
+
+
+/* video-play-service 2nd part end here */
+
+
+/*  title-here 2nd part  start here */
+
+.title-here2{
+    padding:50px 0px;
+    background:#FCC302;
+    width: 100%;
+}
+.title-here2 .title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title h1{
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center ;
+    color: #FFFFFF ;
+}
+.title-here2 .title p{
+    font-size: 29px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF ;
+}
+
+.title-here2 .title-des h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center ;
+    color: #FFFFFF ;
+    margin: 25px 0px 15px 0px;
+
+}
+/*  title-here 2nd part  end here */
+
+/* The vetcare team start here */
+
+.vetcare-team{
+    padding:60px 0px;
+    background:#FFFFFF;
+    width: 100%;
+}
+.vetcare-team .title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.vetcare-team .title h1{
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center ;
+    color: #313243;
+}
+.vetcare-team .title p{
+    font-size: 29px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color:#313243 ;
+}
+
+.vetcare-team .title-des h1{
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center ;
+    color: #313243 ;
+    margin: 25px 0px 15px 0px;
+
+}
+
+.vetcare-team .title-des h2{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #313243 ;
+    text-transform: uppercase;
+    
+
+}
+
+.vetcare-team .social-icon ul li a i {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    background: #DAAC00;
+    margin: 10px 8px;
+    color: #FFFFFF;
+    transition: 0.5s ease-in-out;
+
+}
+
+
+
+.social-icon ul li a i:hover{
+    transform: scale(1.5) rotate(3600deg);
+    transition: 0.5s ease-in-out;
+
+}
+
+/* The vetcare team end here */
+
+/* count-down start here */
+.count-down{
+    width: 100%;
+    background-image: url(../img/bd-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+}
+.count-down .shadow{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(252, 195, 2, 0.8);
+    position: absolute;
+}
+.item-ver{
+    height: 60vh;
+}
+.count-down h1{
+    margin: 40px 0px;
+}
+/* count-down end here */
+
+/* recent post start here */
+.recent-posts{
+    padding:60px 0px;
+    background:#FFFFFF;
+    width: 100%;
+}
+.recent-posts .title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.recent-posts .title h1{
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center ;
+    color: #313243 ;
+}
+.recent-posts .title p{
+    font-size: 29px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #313243 ;
+}
+.card-title{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #313243;
+}
+.card-text{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #313243;
+}
+.card-date{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #00bec9;
+}
+.card-body {
+    padding: 2rem 2.5rem !important;
+    border: 2px solid #D6D6D6;
+    border-top: none;
+}
+
+.c-d{
+    color: #00BEC9;
+    background-color: transparent;
+    border:none;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    
+}
+.card{
+    border:none;
+}
+.card:hover{
+    box-shadow: 5px 5px 30px 15px #EFEFEF;
+}  
+/* recent post end here */
+
+/* footer start here  */
+footer{
+    padding: 30px 0px;
+    background:#343434;
+    width: 100%;
+}
+
+footer h1{
+    font-size: 38px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: left ;
+    color: #FFFFFF ;
+    margin: 22px 0px;
+}
+footer ul {
+    padding-left: 0px !important;
+}
+footer ul li{
+    list-style: none;
+    margin: 8px 0px;
+}
+footer ul li a{
+    text-decoration: none;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: left ;
+    color: #FFFFFF ;
+}
+footer p{
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: right ;
+    color: #FFFFFF ;
+    margin: 22px 0px;
+}
+footer .title-h1{
+    font-size: 38px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: right ;
+    color: #FFFFFF ;
+    margin: 22px 0px;
+}
+footer .form-control{
+    font-size: 1.2rem !important;
+}
+footer .s-icon ul li a i{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    background: #DAAC00;
+    margin: 10px 8px;
+    color: #FFFFFF;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+
+footer .s-icon ul li a i:hover{
+    transform: scale(1.5) rotate(3600deg);
+    transition: 0.7s ease-in-out;
+
+}
+
+footer .form-control {
+    padding: 1.1rem .75rem !important;
+}
+
+footer  .input-group {
+    width: 100%;
+}
+/* footer end here  */
